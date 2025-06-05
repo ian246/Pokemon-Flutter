@@ -1,16 +1,57 @@
-# gerenciadeestadoprodutos
+📦 PokeDex Flutter App
+📝 Descrição do Projeto
 
-A new Flutter project.
+Este é um projeto de estudo e desenvolvimento de uma aplicação PokeDex utilizando a linguagem Dart com o framework Flutter. O foco central deste projeto é consumir a PokeAPI (https://pokeapi.co/), que fornece uma extensa base de dados pública sobre os Pokémons, incluindo informações sobre suas espécies, características físicas e habilidades.
 
-## Getting Started
+O aplicativo foi idealizado com a intenção de praticar conceitos fundamentais e avançados de:
 
-This project is a starting point for a Flutter application.
+    Modelagem de dados.
 
-A few resources to get you started if this is your first Flutter project:
+    Consumo de APIs REST.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    Serialização e desserialização de JSON.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    Boas práticas de programação orientada a objetos.
+
+    Arquitetura limpa e modularizada.
+
+    Tratamento de erros e validação de dados.
+
+🎯 Objetivos do Projeto
+
+    Aprender a fazer requisições HTTP assíncronas.
+
+    Mapear respostas JSON complexas para modelos Dart.
+
+    Organizar a estrutura do código em camadas.
+
+    Trabalhar com boas práticas de serialização e desserialização.
+
+    Evoluir habilidades de desenvolvimento mobile com Flutter.
+
+🚀 Funcionalidades Implementadas
+✅ Requisição de Dados
+
+    Requisição via pacote http.
+
+    Obtenção dos detalhes básicos de um Pokémon:
+
+        Nome.
+
+        Altura.
+
+        Peso.
+
+        Imagem.
+
+        Tipos.
+
+    Obtenção dos dados de espécie do Pokémon:
+
+        Descrição.
+
+        Cor.
+
+        Habitat.
+
+        Informações adicionais.
